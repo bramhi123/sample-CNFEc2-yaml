@@ -14,7 +14,7 @@
            "KeyName": {
                "Ref": "KeyPair"
            }
-           "SecurityGroups" : [ "ssh-tools" ]
+           "SecurityGroups" : [ "newec2" ]
          },
          "Type": "AWS::EC2::Instance"
        }
