@@ -26,6 +26,6 @@
                 "Ref": "Ec2Instance"
             }
          }
-     }'
+     },
          "AWSTemplateFormatVersion": "2010-09-09"
   }
