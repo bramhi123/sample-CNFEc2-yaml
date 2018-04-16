@@ -14,7 +14,7 @@
            "KeyName": {
                "Ref": "KeyPair"
            }
-           "SecurityGroups" : [ "newec2" ]
+           "SecurityGroups" : [ "" ]
          },
          "Type": "AWS::EC2::Instance"
        }
