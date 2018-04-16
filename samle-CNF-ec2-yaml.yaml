@@ -3,7 +3,7 @@ Resources:
      Type: AWS:EC2:Instance
      Properties:
        InstanceType: t2.micro
-       ImageId: 
+       ImageId: ami-6871a115
        KeyName: ec2cli
        SecurityGroups:
          - !Ref AppNodeSG
